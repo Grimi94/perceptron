@@ -10,7 +10,7 @@ if __name__ == "__main__":
     for line in sys.stdin:
         content = line.strip("\n").split(",")
         X.append(map(int, content[:-1]))
-        y.append(map(int, content[-1]))
+        y.append(int(content[-1]))
 
     X = array(X)
     y = array(y)

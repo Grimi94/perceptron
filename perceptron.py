@@ -7,8 +7,8 @@ class Perceptron(object):
     def __init__(self):
         self.w             = []
         self.errors        = []
-        self.rate           = 0.01 # learning rate
-        self.epochs        = 1000 # epochs
+        self.rate           = 0.05 # learning rate
+        self.epochs        = 500 # epochs
         self.step_function = lambda x: 0 if x < 0 else 1
 
 
